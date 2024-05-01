@@ -20,9 +20,9 @@ h6 {
 }
 
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
+  position:-webkit-sticky;
+  top: 20;
+  left: 30;
   right: 0;
 }
 
@@ -56,7 +56,7 @@ nav a:active {
 }
 
 #home {
-  background-color: cornsilk;
+  background-color: rgb(138, 112, 8);
 }
 
 #about img {
